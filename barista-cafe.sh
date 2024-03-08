@@ -12,3 +12,4 @@ unzip 2137_barista_cafe.zip
 sudo cp -rf 2137_barista_cafe/* /var/www/html
 
 sudo systemctl restart apache2
+
