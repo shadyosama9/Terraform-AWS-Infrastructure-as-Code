@@ -19,11 +19,11 @@ This Terraform project demonstrates how to use Infrastructure as Code (IaC) to p
 
 2. **Modify the `vars.tf` file:**
 
-Customize the AWS region, VPC CIDR range, subnet availability zones, instance type, and AMI according to your requirements.
+- Customize the AWS region, VPC CIDR range, subnet availability zones, instance type, and AMI according to your requirements.
 
 3. **Comment out the backend configuration in `terraform.tf`**
 
-To disable the backend configuration, comment out the relevant section in the `terraform.tf` file.
+- To disable the backend configuration, comment out the relevant section in the `terraform.tf` file.
 
 4. **Initialize the Terraform configuration:**
 
@@ -49,7 +49,7 @@ terraform apply
 terraform init
 ```
 
-## Note:
+## Notes:
 
 - Ensure your AWS credentials are properly configured and secure.
 - Review and customize the Terraform scripts according to your requirements before applying them to your AWS account.
