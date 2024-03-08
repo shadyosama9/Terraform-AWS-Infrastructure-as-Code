@@ -54,4 +54,4 @@ terraform init
 - Ensure your AWS credentials are properly configured and secure.
 - Review and customize the Terraform scripts according to your requirements before applying them to your AWS account.
 - NAT gateway is not free tier eligiable
-
+- You can access the web pages through the load balancer DNS
